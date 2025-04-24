@@ -31,4 +31,4 @@ jobs:
           allIssues: True #optional. default false. If true, scan will show blockers and no blocker issues
           version: testing
           api_url: "https://api-development.qualityclouds.com"
-          gitHubToken: ${{ secrets.QC_GITHUB_TOKEN }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
