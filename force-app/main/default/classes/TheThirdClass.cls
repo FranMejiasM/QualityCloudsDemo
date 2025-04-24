@@ -7,5 +7,6 @@ public class TheThirdClass {
     	}
         system.debug('27/10/2023 11:40');
         system.debug('27/10/2023 11:42');
+        system.debug('27/10/2023 11:42');
     }
 }
