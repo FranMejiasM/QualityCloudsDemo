@@ -19,12 +19,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - name: Set Git user globally to github-actions
-        uses: gotmax23/set-bot-git-user-action@main
-        with:
-          global: true
-          bot: github-actions
-          name: "Quality Clouds"
+
       - name: Quality Clouds Scan
         uses: qualityclouds/action-full-scan@QAT-1508
         with:
@@ -35,3 +30,5 @@ jobs:
           version: testing
           api_url: "https://api-development.qualityclouds.com"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          
