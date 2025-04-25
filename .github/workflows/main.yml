@@ -30,5 +30,3 @@ jobs:
           version: testing
           api_url: "https://api-development.qualityclouds.com"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          
