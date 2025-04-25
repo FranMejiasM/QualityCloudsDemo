@@ -1,5 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
+# This is a basic workflow to help you get started with Actions   
 name: QualityClouds
 
 # Controls when the action will run. 
@@ -20,7 +19,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-
+      - name: Set Git user globally to github-actions
+        uses: gotmax23/set-bot-git-user-action@main
+        with:
+          global: true
+          bot: github-actions
+          name: "Quality Clouds"
       - name: Quality Clouds Scan
         uses: qualityclouds/action-full-scan@QAT-1508
         with:
