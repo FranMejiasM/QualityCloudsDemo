@@ -3,6 +3,7 @@
     <types>
         <members>Agentcontroller</members>
         <members>Examplepilot1</members>
+        <members>LiveCheckController</members>
         <members>LiveCheckclass</members>
         <name>ApexClass</name>
     </types>
