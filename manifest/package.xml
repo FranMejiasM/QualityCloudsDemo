@@ -7,5 +7,17 @@
         <members>LiveCheckclass</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>QCLiveChecks__AIFindings__c.QCLiveChecks__CECreatedById__c</members>
+        <members>QCLiveChecks__AIFindings__c.QCLiveChecks__CECreatedOn__c</members>
+        <members>QCLiveChecks__AIFindings__c.QCLiveChecks__CEUpdatedById__c</members>
+        <members>QCLiveChecks__AIFindings__c.QCLiveChecks__CEUpdatedOn__c</members>
+        <members>QCLiveChecks__AIFindings__c.QCLiveChecks__Category__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>QCLiveChecks__AIFindings__c</members>
+        <name>CustomObject</name>
+    </types>
     <version>65.0</version>
 </Package>

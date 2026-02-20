@@ -191,6 +191,28 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>QCLiveChecks__CEUpdatedOn__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DAte when the element was modified</description>
+        <label>CEUpdatedOn</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>QCLiveChecks__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Category</inlineHelpText>
+        <label>Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>AI Finding</label>
     <nameField>
         <label>AI Findings Name</label>
