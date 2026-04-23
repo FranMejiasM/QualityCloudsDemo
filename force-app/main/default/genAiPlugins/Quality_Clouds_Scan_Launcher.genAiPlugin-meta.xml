@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Facilitates the initiation of scans, code quality checks, and issue analysis specifically for Copado User Stories. This topic supports users in launching quality assessments and identifying code-related concerns within the defined context.</description>
+    <developerName>Quality_Clouds_Scan_Launcher</developerName>
+    <genAiFunctions>
+        <functionName>ExecuteQualityCloudsScan</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Guide the user to initiate a scan for their Copado User Story when requested.</description>
+        <developerName>instruction_0_1775743225781</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0_1775743225781</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask clarifying questions to gather necessary details about the user story or specific issues.</description>
+        <developerName>instruction_1_1775743225787</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1_1775743225787</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Assist in analyzing and identifying quality clouds issues within the Copado User Story.</description>
+        <developerName>instruction_2_1775743225787</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_2_1775743225787</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Provide steps or information to check the code quality of the Copado User Story.</description>
+        <developerName>instruction_3_1775743225787</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_3_1775743225787</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Quality Clouds Scan Launcher</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>My job is to assist users in launching scans, checking code quality, and analyzing issues specifically within the context of a Copado User Story. I do not handle unrelated tasks or inquiries outside this scope.</scope>
+</GenAiPlugin>

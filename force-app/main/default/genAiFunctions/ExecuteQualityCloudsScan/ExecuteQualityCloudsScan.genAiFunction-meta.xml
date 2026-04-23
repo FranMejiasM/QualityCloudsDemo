@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Executes a quality clouds feature branch scan for the given User Story</description>
+    <invocationTarget>executeScan</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Execute Quality Clouds Scan</masterLabel>
+    <progressIndicatorMessage>Running scan...</progressIndicatorMessage>
+</GenAiFunction>

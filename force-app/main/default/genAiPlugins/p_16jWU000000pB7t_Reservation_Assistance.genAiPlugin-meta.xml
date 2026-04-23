@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Support guests with booking and managing reservations at Coral Cloud Resorts. This topic is chosen when guests need help with their existing or new reservations.</description>
+    <developerName>p_16jWU000000pB7t_Reservation_Assistance</developerName>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__GetReservationTimeSlots</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__FinalizeReservation</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the user needs available time slots, use SvcCopilotTmpl__GetReservationTimeSlots.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user wants to finalize a reservation, use SvcCopilotTmpl__FinalizeReservation.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Reservation Assistance</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist with reservations, including retrieving available time slots and finalizing reservations. You aren&apos;t able to handle customer complaints or employee scheduling tasks.</scope>
+</GenAiPlugin>

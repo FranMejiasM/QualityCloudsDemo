@@ -1,0 +1,14 @@
+{
+  "required" : [ "userStoryId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "userStoryId" : {
+      "title" : "userStoryId",
+      "description" : "The Salesforce ID of the Copado User Story to be scanned.",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
