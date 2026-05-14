@@ -5,6 +5,21 @@ public class TheThirdClass {
         for (Integer i = 0; i < length; i++) {
             Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
     	}
+        for (Integer i = 0; i < length; i++) {
+            Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
+    	}
+        for (Integer i = 0; i < length; i++) {
+            Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
+    	}
+        for (Integer i = 0; i < length; i++) {
+            Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
+    	}
+        for (Integer i = 0; i < length; i++) {
+            Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
+    	}
+        for (Integer i = 0; i < length; i++) {
+            Account acc = [SELECT Id FROM Account WHERE Name = :myName];        
+    	}
         system.debug('27/10/2023 11:40');
     }
 }
